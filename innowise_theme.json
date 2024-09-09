@@ -1,0 +1,38 @@
+{
+    "name": "Custom Grey Dashboard Theme",
+    "dataColors": [
+        "#2E2E2E",
+        "#B0B0B0",
+        "#E7E7E7",
+        "#1C1C1C",
+        "#FFFFFF",
+        "#A52829",
+        "#C63031"
+    ],
+    "background": "#E7E7E7",
+    "foreground": "#1C1C1C",
+    "tableAccent": "#C63031",
+    "visualStyles": {
+        "card": {
+            "*": {
+                "cardTitle": [{
+                    "fontColor": { "solid": { "color": "#1C1C1C" } }
+                }]
+            }
+        },
+        "slicer": {
+            "*": {
+                "title": [{
+                    "fontColor": { "solid": { "color": "#2E2E2E" } }
+                }]
+            }
+        },
+        "chart": {
+            "*": {
+                "dataPoint": [{
+                    "color": { "solid": { "color": "#2E2E2E" } }
+                }]
+            }
+        }
+    }
+}
