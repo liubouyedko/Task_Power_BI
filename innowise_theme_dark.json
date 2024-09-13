@@ -1,0 +1,38 @@
+{
+  "name": "Custom Dark Dashboard Theme",
+  "dataColors": [
+    "#D1D1D1", 
+    "#4F4F4F", 
+    "#181818", 
+    "#E3E3E3", 
+    "#000000", 
+    "#5AD6D7", 
+    "#39C8C9"
+  ],
+  "background": "#181818",
+  "foreground": "#E3E3E3",
+  "tableAccent": "#39C8C9",
+  "visualStyles": {
+    "card": {
+      "*": {
+        "cardTitle": [{
+          "fontColor": { "solid": { "color": "#E3E3E3" } }
+        }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "title": [{
+          "fontColor": { "solid": { "color": "#D1D1D1" } }
+        }]
+      }
+    },
+    "chart": {
+      "*": {
+        "dataPoint": [{
+          "color": { "solid": { "color": "#D1D1D1" } }
+        }]
+      }
+    }
+  }
+}
